@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <conio.h>
+void main()
+{
+    int l, b, P, a;
+    clrscr();
+    printf("Enter length and width of rectangle:");
+    scanf("%d%d", &l, &b);
+    a = l * b;
+    P = 2 * (l + b);
+    printf("in length = %d in width = %d", l, b);
+    scanf(" in Area = %d In perimeter = %d", a, P);
+    getch();
+}
